@@ -107,6 +107,8 @@ const revalidateToken = async(req, res) => {
     const token = await generateJWT( uid, name );
 
     res.json({
+        uid,
+        name,
         ok: true,
         token: token
     })

@@ -43,7 +43,7 @@ router.put(
     ],
     updateEvent);
 
-// Update Event
+// Delete Event
 router.delete('/:id', deleteEvent);
 
 
